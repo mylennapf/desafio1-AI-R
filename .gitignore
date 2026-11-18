@@ -1,0 +1,13 @@
+# Ambiente Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Dados extraidos da API (reprocessaveis) e banco local
+brutos/
+*.db
+*.db-journal
+
+# Segredos
+.env
